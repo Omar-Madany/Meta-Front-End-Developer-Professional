@@ -1,4 +1,4 @@
-### `Headings`
+## `Headings`
 
 allows you to display titles and subtitles in web pages
 
@@ -24,7 +24,7 @@ allows you to display titles and subtitles in web pages
 ><h6>Heading 6</h6>
 ></body>
 ---
-### `paragraphs`
+## `paragraphs`
 are used for displaying text content on a webpage. It is defined by the `<p>`
 
 + Syntax :
@@ -45,9 +45,88 @@ are used for displaying text content on a webpage. It is defined by the `<p>`
 >**Note** : that putting content on a new line is ignored by the web browser.
 
 ---
-### `Line Breaks`
+## `Line Breaks`
+
 `<br/>` tag allows us to add breaks between paragraphs or other elements
 
++ Syntax :
+
+        <p>
+            This paragraph<br>
+            contains a lot of lines<br>
+            and they are displayed.
+        </p>
+
 + Ex:
+<p>
+            This paragraph<br>
+            contains a lot of lines<br>
+            and they are displayed.
+</p>
+
+---
+## `Strong`
+
+Strong tags can be used to indicate that a range of text has importance.
++ Syntax :
+
+        <p>
+        No matter how much the dog barks: <strong> don't feed him chocolate </strong>.
+        </p>
+
++ EX :
+
+<p>
+   No matter how much the dog barks: <strong>don't feed him chocolate</strong>.
+</p>
+
+---
+## `Bold`
+Bold tags can be used to draw the reader's attention to a range of text.
++ Syntax :
+
+        <p>
+            The primary colors are <b>red</b>, <b>yellow</b> and <b>blue</b>.
+        </p>
+
++ Ex :
+
+<p>
+   The primary colors are <b>red</b>, <b>yellow</b> and <b>blue</b>.
+</p>
+
+---
+## `emphasis`
+Emphasis tags can be used to add emphasis to text.
++ Syntax :
+
+        <p>
+        Wake up <em>now</em>!
+        </p>
+
++ Ex :
+
+<p>
+   Wake up <em>now</em>!
+</p>
+
+---
+## `italics`
+Italics tags can be used to offset a range of text
++ Syntax :
+
+        <p>
+            The term <i>HTML</i> stands for HyperText Markup Language.
+        </p>
+
+---
+## `list`
+- lists used for formatting webpage
+- lists specified using 
+
+
+there are two types of lists:
+
+1. Unordered Lists:
 
 
