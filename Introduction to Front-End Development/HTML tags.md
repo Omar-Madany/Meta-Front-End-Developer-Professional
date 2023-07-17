@@ -300,16 +300,16 @@ To create a form in HTML, you can use the <form> element along with various form
 + visual repersentation :
 
 <form action="/submit-form" method="POST">
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+<label for="name">Name:</label>
+<input type="text" id="name" name="name" placeholder="Enter your name" required>
 
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" placeholder="Enter your email" required>
 
-    <label for="message">Message:</label>
-    <textarea id="message" name="message" placeholder="Enter your message" rows="4" required></textarea>
+<label for="message">Message:</label>
+<textarea id="message" name="message" placeholder="Enter your message" rows="4" required></textarea>
 
-    <input type="submit" value="Submit">
+<input type="submit" value="Submit">
 </form>
 
 ---
