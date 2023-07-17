@@ -211,3 +211,31 @@ the div has not impact unless you add css code
 If you want to leave a comment in the code for other developers, it can be added as:
 
         <!-- This is a comment --> 
+---
+## `Linking`
+
+to make a website you have to link webpages together 
+\<a> is the default link tag for HTML
+
++ Syntax :
+
+        <a href="https://google.com">Google</a>
+
++ Ex :
+
+<a href="https://google.com">Google</a>
+
+---
+## `img` 
+use \<img> so you can display photo in a website 
+the tag has 2 main attributes :
+1. `src` used to display the image
+2. `alt` if the image can't be displayed it gives if you a text of the content
+
++ Syntax :
+
+        <img src="https://i.pinimg.com/564x/7f/12/ec/7f12ec08e16b28c02cd185591be97355.jpg" alt="anime photo">
+
++ Ex :
+
+<img src="https://i.pinimg.com/564x/7f/12/ec/7f12ec08e16b28c02cd185591be97355.jpg" alt="anime photo">
