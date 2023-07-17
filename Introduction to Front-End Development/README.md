@@ -203,4 +203,11 @@ the div has not impact unless you add css code
 
 <img align='center' src='https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/bVdFeS21TUSXRXkttd1EVw_3cd3c9ca71214bafa65b0144efae3ee1_html_nested_div_with_style.png?expiry=1689724800000&hmac=Rzixwyu2fG01GlXNVCDA2-gHyLUbEWmyNq-VNj2HjgY' >
 
+<br>
 
+---
+## `Comments`
+
+If you want to leave a comment in the code for other developers, it can be added as:
+
+        <!-- This is a comment --> 
