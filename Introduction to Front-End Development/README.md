@@ -122,11 +122,85 @@ Italics tags can be used to offset a range of text
 ---
 ## `list`
 - lists used for formatting webpage
-- lists specified using 
+- lists specified using the *\<li>* as the body of the list
 
 
 there are two types of lists:
 
-1. Unordered Lists:
+### **1. Unordered Lists :**
+
++ Syntax :
+
+        <ul>
+                <li>Tea</li>
+                <li>Sugar</li>
+                <li>Milk</li>
+        </ul>
+
++ Ex :
+
+<ul>
+   <li>Tea</li>
+   <li>Sugar</li>
+   <li>Milk</li>
+</ul>
+
+----
+### 2.**Ordered List :**
+
++ syntax :
+
+        <ol>
+                <li>Rocky</li>
+                <li>Rocky II</li>
+                <li>Rocky III</li>
+        </ol>
+
++ Ex :
+
+<ol>
+   <li>Rocky</li>
+   <li>Rocky II</li>
+   <li>Rocky III</li>
+</ol>
+
+---
+## `Div tags`
+
+A \<div> tag defines a content division in a HTML document. It acts as a generic container and has no effect on the content unless it is styled by CSS.
+
+shows div has a pragraph inside
++ Syntax :
+
+        <div>
+           <p>This is a paragraph inside a div</p>
+        </div>
+
+
++ Ex :
+
+<div>
+   <p>This is a paragraph inside a div</p>
+</div>
+
+the div has not impact unless you add css code 
+
++ Syntax :
+
+        <style>
+           div {
+              border: 1px solid black;
+              padding: 2px;
+           }
+        </style>
+        <div>
+           <div>
+              <p>This is a paragraph inside stylized divs</p>
+           </div>
+        </div>
+
++ Ex :
+
+<img align='center' src='C:\Users\omarm\OneDrive\سطح المكتب' width='100%'>
 
 
