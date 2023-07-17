@@ -13,7 +13,7 @@ allows you to display titles and subtitles in web pages
             <h6>Heading 6</h6>
         </body>
 
-+ Ex : 
++ visual repersentation : 
 
 ><body>
 ><h1>Heading 1</h1>
@@ -35,7 +35,7 @@ are used for displaying text content on a webpage. It is defined by the `<p>`
             but they are ignored.
         </p>
 
-+ EX : 
++ visual repersentation : 
   <p>
             This paragraph
             contains a lot of lines
@@ -74,7 +74,7 @@ Strong tags can be used to indicate that a range of text has importance.
         No matter how much the dog barks: <strong> don't feed him chocolate </strong>.
         </p>
 
-+ EX :
++ visual repersentation :
 
 <p>
    No matter how much the dog barks: <strong>don't feed him chocolate</strong>.
@@ -89,7 +89,7 @@ Bold tags can be used to draw the reader's attention to a range of text.
             The primary colors are <b>red</b>, <b>yellow</b> and <b>blue</b>.
         </p>
 
-+ Ex :
++ visual repersentation :
 
 <p>
    The primary colors are <b>red</b>, <b>yellow</b> and <b>blue</b>.
@@ -104,7 +104,7 @@ Emphasis tags can be used to add emphasis to text.
         Wake up <em>now</em>!
         </p>
 
-+ Ex :
++ visual repersentation :
 
 <p>
    Wake up <em>now</em>!
@@ -137,7 +137,7 @@ there are two types of lists:
                 <li>Milk</li>
         </ul>
 
-+ Ex :
++ visual repersentation :
 
 <ul>
    <li>Tea</li>
@@ -156,7 +156,7 @@ there are two types of lists:
                 <li>Rocky III</li>
         </ol>
 
-+ Ex :
++ visual repersentation :
 
 <ol>
    <li>Rocky</li>
@@ -177,7 +177,7 @@ shows div has a pragraph inside
         </div>
 
 
-+ Ex :
++ visual repersentation :
 
 <div>
    <p>This is a paragraph inside a div</p>
@@ -199,7 +199,7 @@ the div has not impact unless you add css code
            </div>
         </div>
 
-+ Ex :
++ visual repersentation :
 
 <img align='center' src='https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/bVdFeS21TUSXRXkttd1EVw_3cd3c9ca71214bafa65b0144efae3ee1_html_nested_div_with_style.png?expiry=1689724800000&hmac=Rzixwyu2fG01GlXNVCDA2-gHyLUbEWmyNq-VNj2HjgY' >
 
@@ -221,7 +221,7 @@ to make a website you have to link webpages together
 
         <a href="https://google.com">Google</a>
 
-+ Ex :
++ visual repersentation :
 
 <a href="https://google.com">Google</a>
 
@@ -236,6 +236,80 @@ the tag has 2 main attributes :
 
         <img src="https://i.pinimg.com/564x/7f/12/ec/7f12ec08e16b28c02cd185591be97355.jpg" alt="anime photo">
 
-+ Ex :
++ visual repersentation :
 
-<img src="https://i.pinimg.com/564x/7f/12/ec/7f12ec08e16b28c02cd185591be97355.jpg" alt="anime photo">
+<img src="https://i.pinimg.com/564x/7f/12/ec/7f12ec08e16b28c02cd185591be97355.jpg" alt="anime photo" height='100px'>
+
+---
+## `Table`
+To create tables use `<table>` and to create table content we use :
+
+1. \<th> for the table header 
+2. \<tr> for the table content
+3. \<td> for the table cells
+
++ Syntax :
+
+        <table>
+            <tr>
+                <th>Dish</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Burger</td>
+                <td>$5.99</td>
+            </tr>
+        </table>
+
++ visual repersentation :
+
+<table>
+        <tr>
+        <th>Dish</th>
+        <th>Price</th>
+        </tr>
+        <tr>
+        <td>Burger</td>
+        <td>$5.99</td>
+        </tr>
+</table>
+
+---
+## `Forms` 
+To create a form in HTML, you can use the <form> element along with various form-related input elements to collect user input.
+
+1. \<form> Tag: Use this tag to define a form. It serves as a container for form elements and provides functionality for submitting user input to a server.
+
+2. Form Elements: Within the \<form> tag, you can include different types of form elements, such as input fields, checkboxes, radio buttons, select dropdowns, and more. These elements allow users to enter or select data.
+
++ Syntax :
+
+        <form action="/submit-form" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email"  required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Enter your message" rows="4"     required></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+
++ visual repersentation :
+
+<form action="/submit-form" method="POST">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" placeholder="Enter your message" rows="4" required></textarea>
+
+    <input type="submit" value="Submit">
+</form>
+
+---
