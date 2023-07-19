@@ -241,3 +241,112 @@ also these properties can be individual
         }
 
 ---
+# Box Model 
+The box model refers to a concept in CSS where every HTML element has its own rectangular area.
+
+## `Content`
+
++ Syntax :
+
+        p{
+          width :100px;
+          height :50px;
+        }
+
+---
+
+## `padding`
+
++ Syntax :
+
+        p{
+          padding :20px ; /*top right bottom left*/
+        }
+
+---
+## `border`
+
++ Syntax :
+
+      p{
+        border :3px dotted blue; /*dotted refers to dotted rectangular will surround the content*/
+      }
+
+---
+## `Margin`
+
++ Syntax :
+
+      p{
+        margin :40px auto;/*margin on top and bottom is set as 'auto'
+      }
+
+---
+# Alignment
+We can align elements using different properties like,
+
+## `Text alignment`
++ Syntax:
+
+      p {
+          text-align: center; /*left - right -justify */
+      }
+
+---
+## `HTML alignment`
+you can align in horizontal or vertical 
+
+1. ## Horizontal
+
+* ### center alignment :
+
+*HTML* 
+
+    <div class="parent">
+      <div class="child">
+      </div>
+    </div>
+
+*CSS*
+
+    .parent {
+      border: 4px solid red;
+    }
+
+    .child {
+      width: 50%;
+      padding: 20px;
+      border: 4px solid green;
+      margin: auto;
+    }
+
++ visual repersentation :
+
+<img src="https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/ElKjOOdnT2GSozjnZy9hJw_0670f63ae6e548a28dfa041b7983bfe1_css_center_div.png?expiry=1689897600000&hmac=aMuRQvZfxrrbHYQLeuTL4aOqPRoc66WIrXtvqzwk7rE">
+
+> **NOTE** : this example only used for block when we use inline element better use property display 
+ 
+<br><br><br>
+* ### Left/Right alignment
+
+The two most common ways to left and right align elements are to use the float property and the position property.
+
+Float :
+
+*HTML* 
+
+    <div class="parent">
+      <img src="photo.png" class="child"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.    Curabitur eu odio eget leo auctor porta sit amet sit amet justo. Donec fermentum quam in diam   volutpat, at lacinia diam placerat. Aenean quis feugiat sem. Suspendisse a dui massa. Phasellus    scelerisque, mi vestibulum iaculis tristique, orci tellus gravida nisi, in pellentesque elit massa    ut lorem. Sed elementum ornare nunc vel cursus. Duis sed enim in nulla efficitur convallis sed eget    dolor. Curabitur scelerisque eros erat, in vulputate dolor consequat vel. Praesent ac sapien   condimentum, ultricies libero at, auctor orci. Curabitur ut augue ac massa convallis faucibus sed in     magna. Phasellus scelerisque auctor est a auctor. Nam laoreet sem sapien, porta imperdiet urna    laoreet eu. Morbi dolor turpis, congue id bibendum eget, viverra et risus. Quisque vitae erat id    tortor ullamcorper maximus.
+    </div>
+
+>**NOTE** : the words that i wrote over there just a latin language
+
+*CSS*
+
+    .child {
+      float: right;
+    }
+
++ visual repersentation :
+
+![Alt text](image.png)
