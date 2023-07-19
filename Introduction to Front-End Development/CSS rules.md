@@ -1,5 +1,5 @@
-# Selectors <a href="selector">
-<div id="selector">
+# Selectors
+
 ## `Element Selector`
 The element selector allows developers to select HTML elements based on their element type.
 
@@ -127,5 +127,117 @@ Changes styles when a user hovers over or clicks on certain parts of your webpag
       color: orange;
     }
 ---
-</div>
+# Colour :
+
+## `RGB value` 
+
++ Simple Syntax :
+
+        p { 
+          color: rgb(255, 0, 0); 
+        }
+
+---
+
+## `RGBA value` 
+
++ Simple Syntax :
+
+        p { 
+          color: rgb(255, 0, 0,128); 
+        }
+
+---
+## `HSL Value`
+
++ Simple Syntax :
+
+        p { 
+          color: hsl(0, 100%, 50%);
+        }
+
+---
+## `Hex value`
+
++ Simple Syntax :
+
+        p { 
+          color: #FF0000;
+        }
+
+---
+## `Predefined color names`
+
++ Simple Syntax :
+
+        p { 
+          color: red;
+        }
+
+---
+# Text :
+
+## `Text Colour` 
+
+The color property sets the color of text
+
++ Simple Syntax :
+
+        p { 
+          color: red;
+        }
+
+---
+## `Text font and size`
+>You can set different fonts for your web page using CSS. You also have to specify a default
+
+>To set the font used by text in CSS you use the font-family property.
+
+>To set the size of the font, the font-size property is used.
++ Simple Syntax : 
+
+        p { 
+          font-family: "Courier New", monospace;
+          font-size: 16px;
+        }
+
+---
+## `Text Transform`
+changes the form of text using text-form property
+
++ Simple Syntax :
+
+        p { 
+          text-transform: uppercase;
+        }
+
+---
+## `Text Decoration`
+The text-decoration property is useful to apply additional decoration to text such as underlining and line-through 
+
++ Simple Syntax :
+
+        p { 
+          text-decoration: underline;
+        }
+
+It is possible to set the color, thickness and styling of the decoration too
+
++ simple Syntax :
+
+        p { 
+          text-decoration: underline red solid 5px;
+        }
+
+also these properties can be individual 
+
++ simple Syntax :
+
+        p { 
+          text-decoration-line: underline;
+          text-decoration-color: red;
+          text-decoration-style: solid;
+          text-decoration-thickness: 5px;
+        }
+
 ---
