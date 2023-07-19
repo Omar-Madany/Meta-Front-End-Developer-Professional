@@ -349,7 +349,7 @@ Float :
 
 + visual repersentation :
 
-![Alt text](image.png)
+![Alt text](https://i.pinimg.com/564x/ea/18/e8/ea18e873ba21b95b4e3131d7c32cac42.jpg)
 
 
 >**Note** : Sorry for not talking about the Vertical and positioning property we will talk about later 😅😁😁
