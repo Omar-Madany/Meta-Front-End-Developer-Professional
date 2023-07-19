@@ -350,3 +350,6 @@ Float :
 + visual repersentation :
 
 ![Alt text](image.png)
+
+
+>**Note** : Sorry for not talking about the Vertical and positioning property we will talk about later 😅😁😁
