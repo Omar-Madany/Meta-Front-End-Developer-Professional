@@ -55,7 +55,7 @@ A more specific method for selecting HTML elements is by first selecting the HTM
 
 *HTML*
 
-    <p class="introduction"></a>
+    <p class="introduction"></p>
 
 *CSS*
 
