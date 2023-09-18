@@ -2,7 +2,7 @@
 <img src="CERTIFICAT intro front.jpeg" alt="My Certificate" />
 
 # Course Outline
-- Starting withe web development
+- Starting with web development
 - introduction to HTML and CSS
 - intro to UI Frameworks 
 - intro to React 
