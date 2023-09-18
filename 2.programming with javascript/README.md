@@ -1,4 +1,4 @@
-<img src="Certificate programming with js.pdf" alt="My Certificate" />
+<img src="Certificate programming with js.jpg" alt="My Certificate" />
 
 # Course Outline
 - introduction to JavaScript
