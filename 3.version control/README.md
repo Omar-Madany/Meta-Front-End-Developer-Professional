@@ -1,3 +1,4 @@
+<img src="Certificate.png">
 # Course Outline
 - Software collaboration
 - Command line
